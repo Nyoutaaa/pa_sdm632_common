@@ -46,6 +46,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     use.voice.path.for.pcm.voip=false
+    persist.audio.qti.flac.decoder=true
 
 # Bluetooth
 PRODUCT_PROPERTY_OVERRIDES += \
