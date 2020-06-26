@@ -495,4 +495,7 @@
     <!-- Names of the key handler classes -->
     <string name="config_deviceKeyHandlerClass" translatable="false">com.moto.actions.KeyHandler</string>
 
+    <!-- Disable rounded corners on windows to improve graphics performance -->
+    <bool name="config_supportsRoundedCornersOnWindows">false</bool>
+
 </resources>
