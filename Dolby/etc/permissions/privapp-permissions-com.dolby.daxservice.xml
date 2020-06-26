@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+    <privapp-permissions package="com.dolby.daxservice">
+        <permission name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+        <permission name="razer.permission.RECEIVE_BOOT_COMPLETED"/>
+        <permission name="razer.permission.INTERACT_ACROSS_USERS_FULL"/>
+        <permission name="razer.permission.MANAGE_USERS"/>
+    </privapp-permissions>
+</permissions>
