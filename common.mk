@@ -188,6 +188,18 @@ PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-service \
     android.hardware.drm@1.2-service.clearkey
 
+# Face Unlock
+PRODUCT_COPY_FILES += \
+    frameworks/native/data/etc/android.hardware.biometrics.face.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.biometrics.face.xml
+
+# Enable FaceUnlock
+TARGET_DISABLE_ALTERNATIVE_FACE_UNLOCK := false
+TARGET_FACE_UNLOCK_SUPPORTED := true
+
+# Face Unlock Permission
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/privapp-permissions-faceunlock.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/privapp-permissions-faceunlock.xml
+
 # Fingerprint
 PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.1

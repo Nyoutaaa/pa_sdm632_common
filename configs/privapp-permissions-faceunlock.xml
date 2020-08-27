@@ -1,0 +1,6 @@
+<permissions>
+    <privapp-permissions package="com.motorola.faceunlock">
+        <permission name="android.permission.CAMERA"/>
+    </privapp-permissions>
+
+</permissions> 
