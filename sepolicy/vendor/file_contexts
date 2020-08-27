@@ -65,3 +65,4 @@
 /(vendor|system/vendor)/bin/charge_only_mode             u:object_r:charge_only_exec:s0
 
 
+
