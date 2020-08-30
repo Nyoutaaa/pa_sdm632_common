@@ -42,6 +42,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.audio.use.sw.alac.decoder=true \
     vendor.audio.use.sw.ape.decoder=true \
     vendor.voice.path.for.pcm.voip=false \
+    vendor.audio.dolby.ds2.enabled=true \
+    vendor.audio.dolby.ds2.hardbypass=false \
     vendor.audio.offload.min.duration.secs=60
 
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
