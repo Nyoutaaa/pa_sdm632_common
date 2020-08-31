@@ -216,7 +216,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/dolby/vendor/lib64/libdlbdsservice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdlbdsservice.so \
     $(LOCAL_PATH)/dolby/vendor/lib64/soundfx/libswdap.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libswdap.so \
     $(LOCAL_PATH)/dolby/vendor/lib64/vendor.dolby.hardware.dms@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.dolby.hardware.dms@1.0-impl.so \
-    $(LOCAL_PATH)/dolby/vendor/lib64/vendor.dolby.hardware.dms@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.dolby.hardware.dms@1.0.so
+    $(LOCAL_PATH)/dolby/vendor/lib64/vendor.dolby.hardware.dms@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.dolby.hardware.dms@1.0.so \
+    $(LOCAL_PATH)/configs/privapp-permissions-dolby.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-dolby.xml
 
 PRODUCT_PACKAGES += \
     daxService \

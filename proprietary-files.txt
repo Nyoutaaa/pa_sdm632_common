@@ -1136,3 +1136,4 @@ dolby/vendor/lib64/libdlbdsservice.so
 dolby/vendor/lib64/soundfx/libswdap.so
 dolby/vendor/lib64/vendor.dolby.hardware.dms@1.0-impl.so
 dolby/vendor/lib64/vendor.dolby.hardware.dms@1.0.so
+configs/privapp-permissions-dolby.xml
