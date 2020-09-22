@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="screen_gestures_panel_summary" translatable="false">Motorola Gestures and Extras</string>
+    <string name="moto_gestures_panel_title">Moto Extras</string>
+
+    <!-- Device gestures -->
+    <string name="device_gestures_title">Device gestures</string>
+    <string name="device_gestures_summary">Manage device gestures</string>
+
+    <!-- Kcal -->
+    <string name="kcal_title">Display Calibration</string>
+    <string name="kcal_summary">Display color calibration</string>
+    <string name="kcal_enabled_title">Enable KCAL</string>
+    <string name="kcal_enabled_summary">Turn on display calibration</string>
+    <string name="kcal_red">Red</string>
+    <string name="kcal_green">Green</string>
+    <string name="kcal_blue">Blue</string>
+    <string name="kcal_saturation">Saturation</string>
+    <string name="kcal_contrast">Contrast</string>
+    <string name="menu_reset">Reset</string>
+    <string name="kcal_color_temp">Color temperature (K)</string>
+
+    <!-- Vibrations -->
+    <string name="vibration_autocal_one_title">Spongy-ness</string>
+    <string name="vibration_autocal_two_title">Strength</string>
+    <string name="vibration_autocal_three_title">Springy-ness</string>
+    <string name="vibrations_customization_title">Vibration Calibration</string>
+    <string name="vibrations_customization_summary">Vibration driver calibration</string>
+    <string name="vibration_preset_default">Default</string>
+    <string name="vibration_preset_soft">Soft</string>
+    <string name="vibration_preset_balanced">Balanced</string>
+    <string name="vibration_preset_hard">Hard</string>
+    <string name="vibration_preset_gabispecial">"Gabi's Special"</string>
+    <string name="vibration_presets_list_title">Load Vibration Preset</string>
+
+    <!-- Misc -->
+    <string name="misc_led_brightness_title">Set max LED Brightness</string>
+    <string name="misc_panel_title">Misc Settings</string>
+    <string name="misc_panel_summary">Miscellaneous settings</string>
+</resources>
