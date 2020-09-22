@@ -35,8 +35,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-pa
+    $(LOCAL_PATH)/overlay
 
 PRODUCT_ENFORCE_RRO_TARGETS := \
     framework-res
@@ -108,6 +107,10 @@ PRODUCT_COPY_FILES += \
 # Additional native libraries
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt
+
+# Google Apps
+TARGET_GAPPS_ARCH := arm64
+
 
 # Bluetooth
 PRODUCT_PACKAGES += \
@@ -394,10 +397,6 @@ PRODUCT_PACKAGES += \
     libOmxVenc \
     libstagefrighthw
 
-# Power
-PRODUCT_PACKAGES += \
-    android.hardware.power@1.2-service \
-    android.hardware.power.stats@1.0-service.mock
 # QMI
 PRODUCT_PACKAGES += \
     libjson
