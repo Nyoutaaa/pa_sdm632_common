@@ -142,7 +142,12 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libbson.vendor \
     libxml2 \
-    Snap
+    camera.msm8953 \
+    libmm-qcamera
+
+# GCam Go
+PRODUCT_PACKAGES += \
+    GCam
 
 # Codec2 modules
 PRODUCT_PACKAGES += \
